@@ -1,5 +1,4 @@
 import React from 'react'
-import './Admin.css'
 import Button from 'react-bootstrap/esm/Button';
 import { BiSearch } from 'react-icons/bi';
 import { useNavigate } from 'react-router-dom';
@@ -9,7 +8,6 @@ import 'react-super-responsive-table/dist/SuperResponsiveTableStyle.css';
 import DatePicker from 'react-date-picker';
 import 'react-date-picker/dist/DatePicker.css';
 import 'react-calendar/dist/Calendar.css';
-import { Line } from 'react-chartjs-2';
 
 
 const Admin = () => {
@@ -163,8 +161,7 @@ const Admin = () => {
                         </Table>
                     </div>}
             </div>
-            {(chartData===null || chartData===undefined)?<></>:
-            <Line data={chartData} />}
+            
         </div>
     )
 }

@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 import Badge from 'react-bootstrap/Badge';
 import Nav from 'react-bootstrap/Nav';
 import Web3 from "web3";
-import HawkersHut from "../contracts/HawkersHut.json";
+import HawkersHut from "../contracts/HawkerHut.json";
 const Hawker = ({ Ncame }) => {
   const [length, setLength] = React.useState(0);
   const [hawker, setHawker] = React.useState(Ncame);

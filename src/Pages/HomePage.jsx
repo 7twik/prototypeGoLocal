@@ -8,7 +8,7 @@ import Download from "./Download";
 import NoticeWrongNetwork from "./NoticeWrongNetwork";
 import { useNavigate } from "react-router-dom";
 import Web3 from "web3";
-import HawkersHut from "../contracts/HawkersHut.json";
+import HawkersHut from "../contracts/HawkerHut.json";
 const HomePage = () => {
   const myStorage = window.localStorage;
   const customerRef = React.useRef();

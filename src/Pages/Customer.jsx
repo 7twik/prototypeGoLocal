@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 import "react-responsive-modal/styles.css";
 import { Modal } from "react-responsive-modal";
 import Web3 from "web3";
-import HawkersHut from "../contracts/HawkersHut.json";
+import HawkersHut from "../contracts/HawkerHut.json";
 
 const Customer = ({ Ncame }) => {
   const [customer, setCustomer] = React.useState(Ncame);
